@@ -29,7 +29,7 @@ int selection=1;
  *----------------------------------------------------------------------------*/
 int main (void){
 	GLCD_Init();
-  LED_Init();                                
+  	LED_Init();                                
 	KBD_Init();
 	startScreen();
 	delay(2);
@@ -271,3 +271,4 @@ void mp3screen(void){
 	GLCD_DisplayString(4, 2, __FI, "mp3 Player");
 	GLCD_DisplayString(5, 2, __FI, "LEFT to exit");
 }
+
